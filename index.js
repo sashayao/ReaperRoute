@@ -22,5 +22,6 @@ app.listen(PORT, () => console.log(`Listening on ${ PORT }`))
 
 
 app.get('/home', (req,res) => { res.render('pages/home')});
+app.get('/test', (req,res) => { res.render('pages/test')});
 
 app.get('/maps', (req,res) => { res.render('pages/maps')});
