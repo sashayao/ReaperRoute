@@ -101,6 +101,7 @@ function initMap() {
         {
           origin: {query: document.getElementById('start').value},
           destination: {query: document.getElementById('end').value},
+          provideRouteAlternatives: true,
           travelMode: 'DRIVING'
         },
         function(response, status) {
